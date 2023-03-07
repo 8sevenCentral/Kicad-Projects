@@ -1,0 +1,505 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:TL072 U1
+U 1 1 62701ECE
+P 2600 2700
+F 0 "U1" H 2600 3067 50  0000 C CNN
+F 1 "TL072" H 2600 2976 50  0000 C CNN
+F 2 "digikey-footprints:SOCKET_DIP-8_7.62mm_Conn" H 2600 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2600 2700 50  0001 C CNN
+	1    2600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 2 1 62705C1E
+P 6900 2650
+F 0 "U1" H 6900 3017 50  0000 C CNN
+F 1 "TL072" H 6900 2926 50  0000 C CNN
+F 2 "digikey-footprints:SOCKET_DIP-8_7.62mm_Conn" H 6900 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6900 2650 50  0001 C CNN
+	2    6900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 3 1 6270B32B
+P 7200 5050
+F 0 "U1" H 7158 5096 50  0000 L CNN
+F 1 "TL072" H 7158 5005 50  0000 L CNN
+F 2 "digikey-footprints:SOCKET_DIP-8_7.62mm_Conn" H 7200 5050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7200 5050 50  0001 C CNN
+	3    7200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 6270F054
+P 1100 2200
+F 0 "C1" H 1215 2246 50  0000 L CNN
+F 1 "1u" H 1215 2155 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 1138 2050 50  0001 C CNN
+F 3 "~" H 1100 2200 50  0001 C CNN
+	1    1100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 627105EE
+P 1650 3700
+F 0 "C2" H 1765 3746 50  0000 L CNN
+F 1 "1u" H 1765 3655 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 1688 3550 50  0001 C CNN
+F 3 "~" H 1650 3700 50  0001 C CNN
+	1    1650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 62710DB2
+P 4950 3250
+F 0 "C3" H 5065 3296 50  0000 L CNN
+F 1 "?" H 5065 3205 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D6.0mm_W4.4mm_P5.00mm" H 4988 3100 50  0001 C CNN
+F 3 "~" H 4950 3250 50  0001 C CNN
+	1    4950 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6271198A
+P 2050 2800
+F 0 "R2" V 1843 2800 50  0000 C CNN
+F 1 "10K" V 1934 2800 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1980 2800 50  0001 C CNN
+F 3 "~" H 2050 2800 50  0001 C CNN
+	1    2050 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6271413A
+P 1650 4000
+F 0 "R1" H 1720 4046 50  0000 L CNN
+F 1 "100R" H 1720 3955 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1580 4000 50  0001 C CNN
+F 3 "~" H 1650 4000 50  0001 C CNN
+	1    1650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 62714B79
+P 7550 3150
+F 0 "R4" H 7620 3196 50  0000 L CNN
+F 1 "1K" H 7620 3105 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7480 3150 50  0001 C CNN
+F 3 "~" H 7550 3150 50  0001 C CNN
+	1    7550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 627154D6
+P 7950 3150
+F 0 "R6" H 8020 3196 50  0000 L CNN
+F 1 "1K" H 8020 3105 50  0000 L CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7880 3150 50  0001 C CNN
+F 3 "~" H 7950 3150 50  0001 C CNN
+	1    7950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 62715F20
+P 2600 3200
+F 0 "D1" H 2600 2983 50  0000 C CNN
+F 1 "1N4001" H 2600 3074 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_A-405_P10.16mm_Horizontal" H 2600 3200 50  0001 C CNN
+F 3 "~" H 2600 3200 50  0001 C CNN
+	1    2600 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 627185EE
+P 3300 2700
+F 0 "D2" H 3300 2483 50  0000 C CNN
+F 1 "1N4001" H 3300 2574 50  0000 C CNN
+F 2 "Diodes_ThroughHole:D_A-405_P10.16mm_Horizontal" H 3300 2700 50  0001 C CNN
+F 3 "~" H 3300 2700 50  0001 C CNN
+	1    3300 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 2800 2300 3200
+Wire Wire Line
+	2300 3200 2450 3200
+Wire Wire Line
+	2750 3200 2900 3200
+Wire Wire Line
+	2900 3200 2900 2700
+Wire Wire Line
+	2900 2700 3150 2700
+Connection ~ 2900 2700
+Wire Wire Line
+	1100 2350 1100 2800
+Wire Wire Line
+	1650 3550 1650 2800
+Connection ~ 1650 2800
+Wire Wire Line
+	3450 2700 3950 2700
+Wire Wire Line
+	3950 2700 3950 2550
+Wire Wire Line
+	3950 2550 4950 2550
+$Comp
+L Device:R R3
+U 1 1 6271B1ED
+P 2600 3600
+F 0 "R3" V 2393 3600 50  0000 C CNN
+F 1 "10K" V 2484 3600 50  0000 C CNN
+F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2530 3600 50  0001 C CNN
+F 3 "~" H 2600 3600 50  0001 C CNN
+	1    2600 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 3600 2350 3600
+Wire Wire Line
+	2350 3600 2300 3200
+Connection ~ 2300 3200
+Wire Wire Line
+	2750 3600 3950 3600
+Wire Wire Line
+	3950 3600 3950 2700
+Connection ~ 3950 2700
+Wire Wire Line
+	4950 3100 4950 2550
+Connection ~ 4950 2550
+Wire Wire Line
+	4950 2550 6600 2550
+$Comp
+L power:GND #PWR0101
+U 1 1 6271D6B6
+P 4950 3400
+F 0 "#PWR0101" H 4950 3150 50  0001 C CNN
+F 1 "GND" H 4955 3227 50  0000 C CNN
+F 2 "" H 4950 3400 50  0001 C CNN
+F 3 "" H 4950 3400 50  0001 C CNN
+	1    4950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6271E6CC
+P 2300 2600
+F 0 "#PWR0102" H 2300 2350 50  0001 C CNN
+F 1 "GND" H 2305 2427 50  0000 C CNN
+F 2 "" H 2300 2600 50  0001 C CNN
+F 3 "" H 2300 2600 50  0001 C CNN
+	1    2300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6271EF27
+P 7100 5350
+F 0 "#PWR0103" H 7100 5100 50  0001 C CNN
+F 1 "GND" H 7105 5177 50  0000 C CNN
+F 2 "" H 7100 5350 50  0001 C CNN
+F 3 "" H 7100 5350 50  0001 C CNN
+	1    7100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 6271FADA
+P 7100 4750
+F 0 "#PWR0104" H 7100 4600 50  0001 C CNN
+F 1 "VCC" H 7115 4923 50  0000 C CNN
+F 2 "" H 7100 4750 50  0001 C CNN
+F 3 "" H 7100 4750 50  0001 C CNN
+	1    7100 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 627206B9
+P 6150 3050
+F 0 "#PWR0105" H 6150 2900 50  0001 C CNN
+F 1 "VCC" H 6165 3223 50  0000 C CNN
+F 2 "" H 6150 3050 50  0001 C CNN
+F 3 "" H 6150 3050 50  0001 C CNN
+	1    6150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 62721014
+P 6150 3950
+F 0 "#PWR0106" H 6150 3700 50  0001 C CNN
+F 1 "GND" H 6155 3777 50  0000 C CNN
+F 2 "" H 6150 3950 50  0001 C CNN
+F 3 "" H 6150 3950 50  0001 C CNN
+	1    6150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT ATTACK1
+U 1 1 62722E30
+P 6150 3450
+F 0 "ATTACK1" H 6080 3404 50  0000 R CNN
+F 1 "10K" H 6080 3495 50  0000 R CNN
+F 2 "Potentiometers:Potentiometer_WirePads" H 6150 3450 50  0001 C CNN
+F 3 "~" H 6150 3450 50  0001 C CNN
+	1    6150 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 3450 6000 2750
+Wire Wire Line
+	6000 2750 6600 2750
+Wire Wire Line
+	6150 3050 6150 3300
+Wire Wire Line
+	6150 3600 6150 3950
+Wire Wire Line
+	7550 3000 7550 2650
+Wire Wire Line
+	7550 2650 7200 2650
+Wire Wire Line
+	7950 3000 7950 2650
+Wire Wire Line
+	7950 2650 7550 2650
+Connection ~ 7550 2650
+$Comp
+L Device:LED D3
+U 1 1 62727056
+P 7550 3450
+F 0 "D3" V 7589 3332 50  0000 R CNN
+F 1 "LED" V 7498 3332 50  0000 R CNN
+F 2 "LEDs:LED_D5.0mm_Horizontal_O3.81mm_Z15.0mm" H 7550 3450 50  0001 C CNN
+F 3 "~" H 7550 3450 50  0001 C CNN
+	1    7550 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 62728305
+P 7950 3450
+F 0 "D4" V 7989 3332 50  0000 R CNN
+F 1 "LED" V 7898 3332 50  0000 R CNN
+F 2 "LEDs:LED_D5.0mm_Horizontal_O3.81mm_Z15.0mm" H 7950 3450 50  0001 C CNN
+F 3 "~" H 7950 3450 50  0001 C CNN
+	1    7950 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 62729283
+P 7550 3600
+F 0 "#PWR0107" H 7550 3350 50  0001 C CNN
+F 1 "GND" H 7555 3427 50  0000 C CNN
+F 2 "" H 7550 3600 50  0001 C CNN
+F 3 "" H 7550 3600 50  0001 C CNN
+	1    7550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 62729AD7
+P 7950 3600
+F 0 "#PWR0108" H 7950 3350 50  0001 C CNN
+F 1 "GND" H 7955 3427 50  0000 C CNN
+F 2 "" H 7950 3600 50  0001 C CNN
+F 3 "" H 7950 3600 50  0001 C CNN
+	1    7950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_PHOTO R7
+U 1 1 6272C231
+P 8100 4100
+F 0 "R7" V 8307 4100 50  0000 C CNN
+F 1 "R_PHOTO" V 8216 4100 50  0000 C CNN
+F 2 "Opto-Devices:Resistor_LDR_7x6_RM5.1" V 8150 3850 50  0001 L CNN
+F 3 "~" H 8100 4050 50  0001 C CNN
+	1    8100 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_POT_TRIM RV1
+U 1 1 62731FB9
+P 7550 4450
+F 0 "RV1" V 7343 4450 50  0000 C CNN
+F 1 "R_POT_TRIM" V 7434 4450 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3296W" H 7550 4450 50  0001 C CNN
+F 3 "~" H 7550 4450 50  0001 C CNN
+	1    7550 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT_TRIM RV2
+U 1 1 627362AB
+P 8100 4450
+F 0 "RV2" V 7893 4450 50  0000 C CNN
+F 1 "R_POT_TRIM" H 7984 4450 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3296W" H 8100 4450 50  0001 C CNN
+F 3 "~" H 8100 4450 50  0001 C CNN
+	1    8100 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 4600 7400 4600
+Wire Wire Line
+	7400 4600 7400 4450
+Wire Wire Line
+	7400 4100 7400 4450
+Connection ~ 7400 4450
+Wire Wire Line
+	7700 4450 7700 4100
+Wire Wire Line
+	7950 4100 7950 4450
+Wire Wire Line
+	7950 4450 7950 4600
+Wire Wire Line
+	7950 4600 8100 4600
+Connection ~ 7950 4450
+Wire Wire Line
+	8250 4450 8250 4100
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 6273FF64
+P 1100 1950
+F 0 "H1" H 1200 1999 50  0000 L CNN
+F 1 "IN" H 1200 1908 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 1100 1950 50  0001 C CNN
+F 3 "~" H 1100 1950 50  0001 C CNN
+	1    1100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 62740D4D
+P 1650 4250
+F 0 "H2" H 1550 4207 50  0000 R CNN
+F 1 "OUT" H 1550 4298 50  0000 R CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 1650 4250 50  0001 C CNN
+F 3 "~" H 1650 4250 50  0001 C CNN
+	1    1650 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 627417AE
+P 6700 5400
+F 0 "H4" H 6600 5357 50  0000 R CNN
+F 1 "GND" H 6600 5448 50  0000 R CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 6700 5400 50  0001 C CNN
+F 3 "~" H 6700 5400 50  0001 C CNN
+	1    6700 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 6274426A
+P 6700 4650
+F 0 "H3" H 6800 4699 50  0000 L CNN
+F 1 "9V" H 6800 4608 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 6700 4650 50  0001 C CNN
+F 3 "~" H 6700 4650 50  0001 C CNN
+	1    6700 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4850 6700 4750
+Wire Wire Line
+	7100 4750 6700 4850
+Connection ~ 7100 4750
+Wire Wire Line
+	6700 5300 7100 5350
+Connection ~ 7100 5350
+Wire Wire Line
+	1650 2800 1900 2800
+Wire Wire Line
+	2200 2800 2300 2800
+Wire Wire Line
+	1550 2800 1650 2800
+Wire Wire Line
+	1100 2800 1650 2800
+Connection ~ 2300 2800
+Connection ~ 7400 4100
+Connection ~ 7700 4100
+$Comp
+L Mechanical:MountingHole_Pad H10
+U 1 1 6275589C
+P 7950 4000
+F 0 "H10" H 8050 4049 50  0000 L CNN
+F 1 "B1" H 8050 3958 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 7950 4000 50  0001 C CNN
+F 3 "~" H 7950 4000 50  0001 C CNN
+	1    7950 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7950 4100
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 6275643E
+P 8250 4000
+F 0 "H8" H 8350 4049 50  0000 L CNN
+F 1 "B2" H 8350 3958 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 8250 4000 50  0001 C CNN
+F 3 "~" H 8250 4000 50  0001 C CNN
+	1    8250 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 4100
+$Comp
+L Device:R_PHOTO R5
+U 1 1 6272A424
+P 7550 4100
+F 0 "R5" V 7757 4100 50  0000 C CNN
+F 1 "R_PHOTO" V 7666 4100 50  0000 C CNN
+F 2 "Opto-Devices:Resistor_LDR_7x6_RM5.1" V 7600 3850 50  0001 L CNN
+F 3 "~" H 7550 4050 50  0001 C CNN
+	1    7550 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 62754BAD
+P 7700 4000
+F 0 "H6" H 7800 4049 50  0000 L CNN
+F 1 "A2" H 7800 3958 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 7700 4000 50  0001 C CNN
+F 3 "~" H 7700 4000 50  0001 C CNN
+	1    7700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 62753407
+P 7400 4000
+F 0 "H5" H 7500 4049 50  0000 L CNN
+F 1 "A1" H 7500 3958 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 7400 4000 50  0001 C CNN
+F 3 "~" H 7400 4000 50  0001 C CNN
+	1    7400 4000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
