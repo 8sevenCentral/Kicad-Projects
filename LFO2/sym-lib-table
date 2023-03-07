@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name LFO2-rescue)(type Legacy)(uri ${KIPRJMOD}/LFO2-rescue.lib)(options "")(descr ""))
+)
