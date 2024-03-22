@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name LFO2-rescue)(type Legacy)(uri ${KIPRJMOD}/LFO2-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "LFO2-rescue")(type "KiCad")(uri "${KIPRJMOD}/LFO2-rescue.kicad_sym")(options "")(descr ""))
 )
