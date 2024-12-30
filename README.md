@@ -1,6 +1,6 @@
 # Kicad-Projects
 
-**[A collection of KiCad files for building various Eurorack modules, including schematics, PCB layouts, and component lists.]**
+**A collection of KiCad files for building various Eurorack modules, including schematics, PCB layouts, and component lists.**
 
 ## Table of Contents
 
