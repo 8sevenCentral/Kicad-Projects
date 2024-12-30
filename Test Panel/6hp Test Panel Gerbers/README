@@ -1,0 +1,5 @@
+This test panel was designed with the intention to test a few things:
+
+* How well does the LED shine through the soldermask-less sections
+* Can the LEDs be soldered directly to the back of the front panel? 
+* Touch sensor cabibility to be integrated with the Trill Touch Sensor - https://bela.io/products/trill/
