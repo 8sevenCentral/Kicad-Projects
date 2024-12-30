@@ -4,7 +4,7 @@
 
 ## Eurorack Modules
 
-* [AB MUTE](#ABMUTE)
+* [AB MUTE](https://github.com/8sevenCentral/Kicad-Projects/tree/main/AB%20MUTE/AB%20MUTE)
 * [Env Follower](#EnvFollower)
 * [Kick Drum](#KickDrum)
 * [LFO2](#LFO2)
