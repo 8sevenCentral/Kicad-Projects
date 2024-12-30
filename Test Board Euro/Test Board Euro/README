@@ -1,0 +1,9 @@
+This module was designed for easier breadboarding by integrating various potentiometer values / LEDs / IO Jacks / and dupont pinheaders. 
+
+Improvements that could make this module more functional:
+* increase the number of dupont connections
+* decrease the amount of potentiometers
+* footprints for toggle switches needs update
+* leds for power indication - something wrong
+* 16pin eurorack power header on the face
+* make the footprint of the module smaller
